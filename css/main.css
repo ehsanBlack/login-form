@@ -1,0 +1,68 @@
+.main{
+    background:linear-gradient(to bottom, rgba(0, 200, 250,0.9),rgba(0, 100, 250,0.9)),url(../images/img-01.jpg)center/cover no-repeat;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-fluid{
+    width: 120px;
+}
+.form{
+    margin-top: 40px;
+}
+.title{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 15px;
+
+}
+.login-input{
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    padding: 25px 0 25px 50px;
+    margin-top: 10px;
+}
+.login-input::selection{
+    margin-left: 30px;
+}
+.icon:hover{
+    transform: translateX(-50%);
+    color: aqua;
+}
+.login-input::placeholder{
+    font-weight: 700;
+    padding-left: 20px;
+}
+.user{
+   transition: all 0.4s ease-in-out;
+   position: relative;
+   left:37px;
+   color: #888;
+}
+.lock{
+    transition: all 0.4s ease-in-out;
+    position: relative;
+    bottom: 33px;
+    left: 35px;
+    color: #888;
+}
+.login-btn{
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    background-color: #333;
+   transition: all 1s ease-in-out;
+}
+.login-btn:hover{
+    background: linear-gradient(to right, rgb(0,100,240)30%,rgb(0,180,250) 80%);
+}
+.login-input:focus{
+    outline: none;
+}
